@@ -61,19 +61,12 @@ class MyAdapter(): RecyclerView.Adapter<MyAdapter.MyViewHolder>(){
             }
 
         }
-       //imageView = Picasso.with(context).load(myList[position].img)
+
 
         holder.itemView.textView.text = myList[position].name
+        holder.itemView.textView3.text = myList[position].name
 
-    //        holder.itemView.cardViewRow.setOnClickListener {
-//
-//
-//            val intent = Intent(it.context , MainActivity3::class.java)
-//            intent.putExtra("pay",pago)
-//            intent.putExtra("time",myList[position].time)
-//            intent.putExtra("plate",myList[position].plate)
-//            it.context.startActivity(intent)
-//        }
+
     }
 
     fun setData(newList: List<All>){
