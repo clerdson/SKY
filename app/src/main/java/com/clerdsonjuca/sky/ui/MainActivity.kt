@@ -1,8 +1,6 @@
-package com.clerdsonjuca.sky
+package com.clerdsonjuca.sky.ui
 
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
-import android.provider.CalendarContract
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.ActionBar
@@ -10,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.ui.graphics.Color
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.clerdsonjuca.sky.R
 import com.clerdsonjuca.sky.adapter.MyAdapter
 import com.clerdsonjuca.sky.util.NetworkResult
 import com.clerdsonjuca.sky.viewmodel.MainViewModel

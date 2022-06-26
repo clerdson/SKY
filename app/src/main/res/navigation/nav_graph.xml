@@ -7,7 +7,7 @@
 
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.clerdsonjuca.sky.MainActivity"
+        android:name="com.clerdsonjuca.sky.ui.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" >
         <action
